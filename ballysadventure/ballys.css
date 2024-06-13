@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background-color: #93c3d8;
+    background-image: url(En\ las\ nubes.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0;
+    background-color: #4a5e67; opacity: 80%;
+    gap: 1em;
+    padding: 1em;
+    font-size: 17px;
+    height: 5em;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+
+main {
+    background-color: #acd3f350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #0c0c0c84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+
+.content{
+    color: rgb(255, 255, 255);
+    background-color: #4a5e67;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+    margin: 5%;
+    padding: 3%;
+    gap: 10px;
+}
+
+.movie_logo {    
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones2{
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size-adjust: auto;
+    border-radius: 25px;
+    border: black;
+    padding: auto;
+    text-align: center;
+}
+
+.botones3{
+        background-color: white;
+        color: black;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        size-adjust: auto;
+        border-radius: 25px;
+        border: black;
+        padding: auto;
+        margin-top: 5px;
+        text-align: center;       
+}
+
+.btn-play{
+    background-color: white;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 13px;
+    gap: 4px;
+    border: black;
+}
+
+.juego{
+    margin: 20px ;
+    padding: 10px;
+}
+
+.info{
+    padding: 2%
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative; 
+}
+
+.dropdown_content {
+    display: none;
+}
+
+.dropdown:hover .dropdown_content {
+display: block;
+position: absolute;
+margin-left: -50px;
+background-color: #4a5e67;
+width: max-content;
+}
+
+.dropdown_contentlibros {
+    display: none;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown_contentlibros {
+    display: block;
+    position: absolute;
+    margin-left: -25px;
+    background-color: #4a5e67;
+    width: max-content;
+    }
+
+.dropdown_contentredes {
+    display: none;
+}
+
+.dropdown:hover .dropdown_contentredes {
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+    background-color: #4a5e67;
+    width: max-content;
+    }
+
+ol {
+    padding: 5%;
+}
+
+a :hover {
+    background-color: rgb(62, 65, 65);
+}
+
+h3 {
+    text-shadow: #000000 ;  
+}
